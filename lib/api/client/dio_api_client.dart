@@ -1,9 +1,10 @@
 import 'dart:convert';
-import 'package:api_call/utils/logger.dart';
+
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import '../../utils/logger.dart';
 import '../../utils/no_internet_screen.dart';
 import '../exception/api_exception.dart';
 import '../exception/failure.dart';
@@ -15,7 +16,7 @@ import 'api_client.dart';
 * Created By Divyesh & kalpesh On 15/08/2024
 *  Rajeshwar info_tech
 *
-* */
+**/
 
 class DioApiClient implements ApiClient {
   late Dio _dio;

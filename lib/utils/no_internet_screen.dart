@@ -1,12 +1,12 @@
 import 'dart:async';
-
-import 'package:api_call/helper/assets_helper.dart';
-import 'package:api_call/utils/assets.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+
+import '../helper/assets_helper.dart';
+import 'assets.dart';
 
 class NoInternetScreen extends StatefulWidget {
   @override
